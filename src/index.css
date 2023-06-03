@@ -1,0 +1,7 @@
+body {
+  background: #F0F0F0;
+}
+
+.bg-lorem {
+  background: url("./assets/bg-lorem.png") no-repeat center center/cover;
+}
