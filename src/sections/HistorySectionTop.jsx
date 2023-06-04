@@ -19,7 +19,7 @@ const HistorySectionTop = () => {
         </div>
       </article>
       <article>
-        <img className="w-[630px] h-[820px] object-cover" src={Buildings} alt="Buildings"/>
+        <img className="w-full lg:w-[630px] lg:h-[820px] object-cover" src={Buildings} alt="Buildings"/>
       </article>
     </div>
   )
