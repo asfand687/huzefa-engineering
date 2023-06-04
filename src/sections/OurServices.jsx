@@ -26,7 +26,7 @@ const servicesData = [
 ]
 const OurServices = () => {
   return (
-    <section className="pt-10">
+    <section className="py-10">
       <SectionTitle
         title="Our Services"
         color="#ffffff"
