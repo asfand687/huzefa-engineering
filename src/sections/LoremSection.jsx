@@ -3,7 +3,7 @@ import React from 'react'
 const LoremSection = () => {
   return (
     <section>
-      <article className="w-full flex justify-center max-w-[1380px] ml-auto h-[700px] bg-lorem">
+      <article className="w-full flex justify-center lg:max-w-6xl max-[1300px]:max-w-[1380px] ml-auto h-[700px] bg-lorem">
         <div className="w-full max-w-5xl flex h-[500px] items-end">
           <div className="w-full flex justify-between">
             <article className="flex flex-col gap-y-5">
