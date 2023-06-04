@@ -5,7 +5,7 @@ import PlusButton from '../components/PlusButton'
 const SpecialitySection = () => {
   return (
     <section className="bg-black text-white pt-32 pb-[700px]">
-      <div className="w-full max-w-7xl mx-auto">
+      <div className="w-full lg:max-w-6xl max-[1300px]:max-w-7xl mx-auto">
         <div className="flex items-center gap-x-8">
           <article className="w-full max-w-[500px]">
             <h2 className="text-5xl font-bold pb-3">We Specialize In</h2>
