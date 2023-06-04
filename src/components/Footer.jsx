@@ -4,9 +4,9 @@ import ContactBg from "../assets/contact-bg.svg"
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="overflow-x-clip">
       <div className="w-full bg-[#0065E7] text-white pt-20 h-[530px] relative">
-        <div className="w-full absolute -top-[1150px] left-[100px]">
+        <div className="w-full absolute lg:-top-[1115px] max-[1300px]:-top-[1150px] left-[100px]">
           <img src={ContactBg} alt="Contact BG"/>
         </div>
         <div className="w-full max-w-4xl mx-auto relative z-50 flex justify-between">
