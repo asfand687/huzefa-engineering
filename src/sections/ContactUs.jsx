@@ -4,7 +4,8 @@ import SectionTitle from '../components/SectionTitle'
 const ContactUs = () => {
   return (
     <section className="bg-[#0065E7] text-white py-10">
-      <div className="relative z-50 max-w-4xl mx-auto">
+      <div className="relative z-50 w-[clamp(270px,80vw,1300px)] mx-auto">
+        
         <SectionTitle
           title="Contact Us"
         />
@@ -35,7 +36,7 @@ const ContactUs = () => {
               placeholder="Message"
             />
           </div>
-          <div className="flex-1 flex justify-end">
+          <div className="flex-1 flex justify-center md:justify-end">
             <button className="flex items-center gap-x-3">
               <span className="font-bold text-xl">
                 Send Enquiry
