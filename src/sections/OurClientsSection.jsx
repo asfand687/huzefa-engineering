@@ -6,7 +6,7 @@ import SectionTitle from '../components/SectionTitle'
 
 const OutClientsSection = () => {
   return (
-    <section className="w-full lg:max-w-6xl max-[1300px]:max-w-7xl mx-auto">
+    <section className="w-[clamp(270px,80vw,1300px)] mx-auto">
       <SectionTitle
         title="Our Clients"
       />

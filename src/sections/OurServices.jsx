@@ -26,12 +26,13 @@ const servicesData = [
 ]
 const OurServices = () => {
   return (
-    <section className="py-10">
+    <section className="w-[clamp(270px,80vw,1300px)] py-10">
       <SectionTitle
+        classes="leading-4"
         title="Our Services"
         color="#ffffff"
       />
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-4">
         {
           servicesData.map(service => (
             <ServiceBlock
