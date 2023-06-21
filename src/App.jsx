@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <section>
+    <section className='overflow-clip'>
       <Navbar/>
       <HomeHero/>
       <LoremSection/>
