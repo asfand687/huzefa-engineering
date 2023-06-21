@@ -1,18 +1,15 @@
 import React from 'react'
-import ContactBg from "../assets/contact-bg.svg"
+
 
 
 const Footer = () => {
   return (
-    <footer className="overflow-x-clip">
-      <div className="w-full bg-[#0065E7] text-white pt-20 h-[530px] relative">
-        <div className="w-full absolute lg:-top-[1115px] max-[1300px]:-top-[1150px] left-[100px]">
-          <img src={ContactBg} alt="Contact BG"/>
-        </div>
-        <div className="w-full max-w-4xl mx-auto relative z-50 flex justify-between">
-          <article className="w-full max-w-[450px] flex flex-col gap-y-8">
-            <h2 className="text-5xl font-extrabold max-w-[340px]">Get In Touch With Us</h2>
-            <ul className="text-2xl font-semibold flex flex-col gap-y-8">
+    <footer>
+      <div className="w-full bg-[#0065E7] text-white py-20 relative">
+        <div className="w-[clamp(270px,80vw,1300px)] mx-auto relative z-50 flex flex-col md:flex-row md:justify-between">
+          <article className="w-full max-w-[450px] flex flex-col items-center md:items-start gap-y-8">
+            <h2 className="text-3xl md:text-5xl text-center md:text-left font-extrabold max-w-[220px] md:max-w-[340px]">Get In Touch With Us</h2>
+            <ul className="text-center md:text-left text-xl md:text-2xl font-semibold flex flex-col gap-y-8">
               <li>
                 +1 (403) 401-2929
               </li>
@@ -24,8 +21,8 @@ const Footer = () => {
               </li>
             </ul>
           </article>
-          <article className="w-full max-w-[380px] flex flex-col gap-y-8">
-            <div className="flex items-center gap-x-8">
+          <article className="w-full md:max-w-[380px] flex flex-col gap-y-8 py-8 md:py-0">
+            <div className="flex justify-center items-center gap-x-8">
               <svg width="26" height="47" viewBox="0 0 26 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.12991 36.4875C7.12991 33.5638 7.10053 30.6402 7.14643 27.7165C7.16112 26.8576 6.86366 26.6091 6.04473 26.6384C4.57579 26.6932 3.10685 26.6639 1.6379 26.6493C0.46826 26.6384 0.0532871 26.2839 0.0349253 25.1381C-0.000574072 22.8857 -0.000574072 20.632 0.0349253 18.3771C0.0532871 17.1894 0.429709 16.866 1.60119 16.8586C3.13072 16.8586 4.6621 16.8276 6.19163 16.8696C6.90774 16.8879 7.14644 16.6503 7.15379 15.9304C7.17398 13.8016 7.04913 11.6746 7.29518 9.54579C7.92682 4.08216 12.2529 0.126055 17.7614 0.0547904C19.9024 0.0273808 22.0452 0.0419992 24.188 0.0547904C25.3136 0.0547904 25.6992 0.381877 25.7212 1.51663C25.764 3.61559 25.764 5.71638 25.7212 7.81899C25.701 8.91537 25.2842 9.28083 24.1825 9.29911C22.8366 9.31921 21.4888 9.29911 20.1429 9.31738C18.136 9.35575 17.3593 10.125 17.328 12.0967C17.3078 13.405 17.3409 14.7152 17.3115 16.0236C17.2987 16.6503 17.53 16.8879 18.1708 16.8787C20.0676 16.8513 21.9644 16.8641 23.863 16.8787C25.0657 16.8787 25.409 17.2095 25.4146 18.3844C25.428 20.6381 25.428 22.8918 25.4146 25.1455C25.4146 26.2857 25.0216 26.6566 23.8483 26.6658C22.0727 26.6786 20.299 26.6658 18.5234 26.6658C17.328 26.6658 17.3225 26.6658 17.3225 27.901C17.3225 33.5644 17.3225 39.2291 17.3225 44.8949C17.3366 45.2614 17.3169 45.6284 17.2638 45.9913C17.1536 46.5998 16.7864 46.9689 16.129 46.9707C13.529 46.9707 10.9271 46.989 8.32711 46.9707C7.46961 46.9707 7.15746 46.5285 7.15379 45.4669C7.12441 42.4555 7.12991 39.4715 7.12991 36.4875Z" fill="white"/>
               </svg>
@@ -42,10 +39,10 @@ const Footer = () => {
                 <path d="M6.53547 0.0346948C7.29472 0.0284096 8.0477 0.172051 8.7508 0.457306C9.4539 0.74256 10.0932 1.16376 10.6316 1.69653C11.17 2.2293 11.5969 2.86306 11.8876 3.56111C12.1782 4.25917 12.3269 5.00767 12.3249 5.76328C12.3066 8.8697 9.68634 11.4736 6.57586 11.4827C3.38274 11.4937 0.843318 8.9373 0.843318 5.71212C0.832724 4.96471 0.97261 4.22276 1.25475 3.53002C1.5369 2.83728 1.95559 2.20778 2.4861 1.67864C3.01662 1.14949 3.64822 0.73142 4.34369 0.449077C5.03915 0.166735 5.78441 0.0258381 6.53547 0.0346948Z" fill="white"/>
               </svg>
             </div>
-            <div className="py-11 relative">
+            <div className="md:py-11 relative">
               <input
                 type="text"
-                className="w-full bg-transparent font-bold border border-white rounded-lg outline-none py-6 px-8"
+                className="w-full bg-transparent font-bold border border-white rounded-lg outline-none py-6 px-8 pr-24 md:pr-8 placeholder:text-white"
                 placeholder='Enter Email address to subscribe'
               />
               <div className="absolute top-[50%] right-4 translate-y-[-50%]">
@@ -54,7 +51,7 @@ const Footer = () => {
                 </svg>
               </div>
             </div>
-            <div className="text-lg">
+            <div className="text-center md:text-left text-base md:text-lg">
               <p>Copyright 2023 <strong>Huzefa Engineering</strong></p>
               <p>All rights reserved.</p>
             </div>
