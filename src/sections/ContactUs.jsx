@@ -12,27 +12,27 @@ const ContactUs = () => {
         <form className="flex flex-col gap-y-5 text-lg">
           <div className="flex-1">
             <input 
-              className="w-full border-b bg-transparent border-white pb-3 outline-none"
+              className="w-full border-b bg-transparent placeholder:text-white border-white pb-3 outline-none"
               placeholder="Name"
             />
           </div>
           <div className="flex-1">
             <input 
-              className="w-full border-b bg-transparent border-white pb-3 outline-none"
+              className="w-full border-b bg-transparent placeholder:text-white border-white pb-3 outline-none"
               placeholder="Email"
               type="email"
             />
           </div>
           <div className="flex-1">
             <input 
-              className="w-full border-b bg-transparent border-white pb-3 outline-none"
+              className="w-full border-b bg-transparent placeholder:text-white border-white pb-3 outline-none"
               placeholder="Phone Number"
               type="tel"
             />
           </div>
           <div className="flex-1">
             <textarea 
-              className="w-full h-24 border-b bg-transparent border-white pb-3 outline-none"
+              className="w-full h-24 border-b bg-transparent placeholder:text-white border-white pb-3 outline-none"
               placeholder="Message"
             />
           </div>
