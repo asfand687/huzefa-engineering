@@ -6,22 +6,22 @@ const servicesData = [
   {
     id: "01",
     title: "Workshop Fabrication",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    description: "At Huzefa Engineering Services, we offer a wide range of workshop fabrication services, providing solutions for various industries. Our expertise is divided into four major categories:"
   },
   {
     id: "02",
     title: "General Order Supplies",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    description: "Under our general supplies category, we provide cost-effective solutions without compromising on quality and lead times. Our shop-in-shop concept operates within leading multinational firms, such as Procter & Gamble at its Hub and Port Qasim plants. We ensure seamless procurement and supply of a wide range of products, meeting the diverse needs of our clients."
   },
   {
     id: "03",
     title: "Bulk Movement Solutions",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    description: "Huzefa Engineering Services is your trusted partner for bulk movement solutions. We specialize in the design, fabrication, and installation of equipment essential for efficient bulk material handling. Our offerings include:"
   },
   {
     id: "04",
     title: "Metal Fabrication Services",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    description: "Our metal fabrication services cover a wide range of applications, allowing us to bring our clients' visions to life. We have expertise in fabricating various metal products, including:"
   }
 ]
 const OurServices = () => {
