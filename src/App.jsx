@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import HomeHero from './components/HomeHero'
-import LoremSection from './sections/LoremSection'
 import OurClientsSection from './sections/OurClientsSection'
 import OurHistory from './sections/OurHistory'
 import SpecialitySection from './sections/SpecialitySection'
@@ -16,7 +15,6 @@ function App() {
     <section className='overflow-clip'>
       <Navbar/>
       <HomeHero/>
-      <LoremSection/>
       <OurClientsSection/>
       <OurHistory/>
       <SpecialitySection/>
