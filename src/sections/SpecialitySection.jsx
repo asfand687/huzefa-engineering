@@ -14,20 +14,24 @@ const SpecialitySection = () => {
       <div className="w-[clamp(270px,80vw,1300px)] mx-auto">
         <div className="flex items-center gap-x-8">
           <article className="w-full max-w-[500px]">
-            <h2 className="text-[35px] md:text-5xl font-bold pb-3 text-center md:text-left">We Specialize In</h2>
+            <h2 className="text-[35px] md:text-5xl font-bold pb-3 text-center md:text-left whitespace-nowrap">We Specialize In</h2>
             <div className='px-7'>
               <p className="text-wrap-balance w-full text-base md:text-2xl font-bold max-w-[500px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
               </p>
               <ul className='text-xl font-bold list-disc pl-6 py-6'>
-                <li>Elevators</li>
-                <li>Conveyers</li>
-                <li>H.T Transformers Casing</li>
-                <li>Oil/ Water storage tanks and vessels</li>
-                <li>Roof cladding</li>
-                <li>Pressure Vessels</li>
-                <li>Weigh Bridges</li>
-                <li>Bill Boards</li>
+                <li>Heat Transfer Solutions</li>
+                <li>Heat Exchangers</li>
+                <li>Cooling Towers</li>
+                <li>Radiators</li>
+                <li>Hoppers</li>
+                <li>Conveyors</li>
+                <li>Bucket Elevators</li>
+                <li>Weighbridges</li>
+                <li>Gratings</li>
+                <li>Solar Panel Installation</li>
+                <li>Tanks</li>
+                <li>Custom Metal Fabrication</li>
               </ul>
               <PlusButton/>
             </div>
