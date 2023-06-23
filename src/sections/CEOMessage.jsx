@@ -3,15 +3,20 @@ import CEO from '../assets/ceo.png'
 
 const CEOMessage = () => {
   return (
-    <section className="flex flex-col md:flex-row gap-6 pt-10">
+    <section className="flex flex-col md:flex-row md:items-center gap-6 pt-10">
       <article>
         <div className="flex flex-col gap-y-1 pb-3">
-          <h2 className="text-[clamp(8rem,8vw,150px)] font-extrabold leading-[120px]">CEO</h2>
+          <h2 className="text-[clamp(5rem,6vw,100px)] font-extrabold leading-[120px]">Directors'</h2>
           <h3 className="text-5xl font-extrabold">Message</h3>
         </div>
-        <p className="w-full max-w-[500px] lg:text-2xl max-[1300px]:text-3xl font-semibold">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <div className="flex flex-col gap-y-3">
+          <p className="w-full max-w-[500px] lg:text-2xl max-[1300px]:text-3xl font-semibold text-justify">
+            With a team of highly skilled professionals, we embrace innovation and strive to exceed your expectations in every project we undertake. Guided by the visionary legacy of our late founder, Baqir Faizullah, we uphold the highest standards of technical expertise, meticulous project management, and exceptional business acumen. Baqir Faizullah's unmatched technical skills and leadership continue to inspire us as we navigate new horizons in the engineering industry.
+          </p>
+          <p className="w-full max-w-[500px] lg:text-2xl max-[1300px]:text-3xl font-semibold text-justify">
+            Thank you for your continued trust in Huzefa Engineering Services. We value our partnership with you and remain dedicated to providing exceptional engineering solutions that drive your success. Together, we will honor Baqir Faizullah's legacy and forge a path of continued excellence.
+          </p>
+        </div>
       </article>
       <article>
         <img className="w-full md:w-[630px] md:h-[820px] object-cover" src={CEO} alt="CEO"/>
