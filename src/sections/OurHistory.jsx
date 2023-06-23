@@ -4,7 +4,7 @@ import OurServices from './OurServices'
 
 const OurHistory = () => {
   return (
-    <section className="bg-[#3B89ED] text-white flex gap-x-6 py-10">
+    <section className="bg-[#3B89ED] text-white flex gap-x-6 pb-10">
       <div className="w-[clamp(270px,80vw,1300px)] mx-auto">
         <HistorySectionTop/>
         <OurServices/>
