@@ -1,10 +1,9 @@
 import React from 'react'
-import LogoGrid from '../components/LogoGrid'
-import CEOMessage from './CEOMessage'
-import OurHistory from './OurHistory'
-import SectionTitle from '../components/SectionTitle'
+import LogoGrid from '../../components/LogoGrid'
+import {CEOMessage} from '../../sections'
+import SectionTitle from '../../components/SectionTitle'
 
-const OutClientsSection = () => {
+const OurClientsSection = () => {
   return (
     <section className="w-[clamp(270px,80vw,1300px)] mx-auto">
       <SectionTitle
@@ -16,4 +15,4 @@ const OutClientsSection = () => {
   )
 }
 
-export default OutClientsSection
+export default OurClientsSection
