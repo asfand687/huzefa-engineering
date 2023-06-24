@@ -1,5 +1,7 @@
 import Homepage from "./Homepage/Homepage";
+import About from "./About/About"
 
-export default {
-  Homepage: Homepage
+export {
+  Homepage,
+  About
 }
