@@ -1,10 +1,10 @@
 import React from 'react'
-import Buildings from '../assets/buildings.png'
+import Buildings from '../../assets/buildings.png'
 
 const HistorySectionTop = () => {
   return (
     <div className="flex flex-col md:flex-row items-center gap-10">
-      <article className="w-full md:w-[500px]">
+      <article className="w-full md:w-[500px] pt-12">
         <h2 className="text-4xl font-bold md:font-normal md:text-6xl pb-3">Our History</h2>
         <p className="text-base font-bold md:font-normal md:text-2xl text-justify">
           Huzefa Engineering Services is a leading provider of comprehensive engineering solutions. We take pride in our vast experience and technical expertise, which enable us to deliver exceptional results on every project. With a strong focus on quality, precision, and customer satisfaction, we have built long-term relationships with esteemed clients across various industries. Our core values of professionalism, reliability, and innovation drive us to constantly improve and deliver cutting-edge solutions.
