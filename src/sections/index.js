@@ -7,18 +7,19 @@ import LoremSection from "./HomepageSections/LoremSection";
 import OurClientsSection from "./HomepageSections/OurClientsSection";
 import OurServices from "./HomepageSections/OurServices";
 import SpecialitySection from "./HomepageSections/SpecialitySection";
+import AboutHero from "./AboutPageSections/AboutHero";
 
 
 
-export default {
-  HomepageHeroSection: HomeHero,
-  HomepageCEOMessage: CEOMessage,
-  HomepageContactUs: ContactUs,
-  HomepageOurHistorySection: OurHistory,
-  HomepageOurHistorySectionTop: HistorySectionTop,
-  HomepageLoremSection: LoremSection,
-  HomepageClientsSection: OurClientsSection,
-  HomepageServicesSection: OurServices,
-  HomepageSpecialitySection: SpecialitySection
-
+export {
+  HomeHero,
+  CEOMessage,
+  ContactUs,
+  OurHistory,
+  HistorySectionTop,
+  LoremSection,
+  OurClientsSection,
+  OurServices,
+  SpecialitySection,
+  AboutHero
 }
