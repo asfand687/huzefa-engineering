@@ -1,9 +1,9 @@
 import React from 'react'
-import CEO from '../assets/ceo.png'
+import CEO from '../../assets/ceo.png'
 
 const CEOMessage = () => {
   return (
-    <section className="flex flex-col md:flex-row gap-10 pt-10">
+    <section className="flex flex-col md:flex-row gap-10 py-10">
       <article>
         <div className="flex flex-col gap-y-1 pb-3">
           <h2 className="text-[clamp(3.5rem,6vw,100px)] leading-10 font-extrabold md:leading-[120px]">Directors'</h2>
