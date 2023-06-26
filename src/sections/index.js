@@ -8,8 +8,9 @@ import OurClientsSection from "./HomepageSections/OurClientsSection";
 import OurServices from "./HomepageSections/OurServices";
 import SpecialitySection from "./HomepageSections/SpecialitySection";
 import AboutHero from "./AboutPageSections/AboutHero";
-
-
+import AboutDescription from "./AboutPageSections/AboutDescription";
+import AboutCarousel from "./AboutPageSections/AboutCarousel";
+import AboutAdditionalServices from "./AboutPageSections/AboutAdditionalServices";
 
 export {
   HomeHero,
@@ -21,5 +22,8 @@ export {
   OurClientsSection,
   OurServices,
   SpecialitySection,
-  AboutHero
+  AboutHero,
+  AboutDescription,
+  AboutCarousel,
+  AboutAdditionalServices
 }
