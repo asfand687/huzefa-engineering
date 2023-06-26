@@ -1,13 +1,13 @@
 import React from 'react'
-import Buildings from "../assets/buildings-grid.png"
-import PlusButton from '../components/PlusButton'
-import ContactBg from "../assets/contact-bg.svg"
+import Buildings from "../../assets/buildings-grid.png"
+import PlusButton from '../../components/PlusButton'
+import ContactBg from "../../assets/contact-bg.svg"
 
 const SpecialitySection = () => {
   return (
-    <section className="relative bg-black text-white pt-32 pb-[700px]">
+    <section className="relative bg-black text-white pt-32 pb-[clamp(300px,40vw,700px)] md:pb-[700px]">
         <div 
-          className="w-full absolute left-0 -bottom-[76.4vw]"
+          className="w-full absolute left-0 -bottom-[76.8vw] lg:-bottom-[76.3vw] min-[1281px]:-bottom-[75.9vw]"
         >
           <img className="w-full" src={ContactBg} alt="Contact BG"/>
         </div>
