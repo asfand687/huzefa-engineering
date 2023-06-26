@@ -1,6 +1,6 @@
 import React from 'react'
-import SectionTitle from '../components/SectionTitle'
-import ServiceBlock from '../components/ServiceBlock'
+import SectionTitle from '../../components/SectionTitle'
+import ServiceBlock from '../../components/ServiceBlock'
 
 const servicesData = [
   {
