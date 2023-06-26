@@ -3,17 +3,19 @@ import About from "../../assets/about-bg.png"
 
 const AboutHero = () => {
   return (
-    <section className="w-[clamp(270px,90vw,1400px)] ml-auto">
-      <div className="relative w-full pt-20">
-        <div className="pl-8 md:pl-16 absolute top-0 left-0 text-7xl font-bold">
-          <h2>
-            Fabrication Lorem ipsum
-          </h2>
-          <h3 className="capitalize text-[#0065E7]">
-            dolor sit amet,
-          </h3>
+    <section className="w-full md:w-[clamp(270px,90vw,1400px)] md:ml-auto md:pt-20">
+      <div className="relative  pt-20">
+        <div className="md:pl-16 absolute w-full flex justify-center top-0 left-0 text-4xl md:text-7xl font-bold">
+          <div className="w-[clamp(270px,90vw,1400px)] mx-auto">
+            <h2 className="max-w-[200px] md:max-w-full">
+              Fabrication Lorem ipsum
+            </h2>
+            <h3 className="max-w-[200px] md:max-w-full capitalize text-[#0065E7]">
+              dolor sit amet,
+            </h3>
+          </div>
         </div>
-        <img src={About} alt="about us"/>
+        <img className="w-full h-[500px] object-cover md:h-full" src={About} alt="about us"/>
       </div>
     </section>
   )
