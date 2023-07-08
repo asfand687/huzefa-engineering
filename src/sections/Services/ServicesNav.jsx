@@ -14,13 +14,13 @@ const ServicesNav = () => {
         <h3 className="text-white font-bold text-2xl md:text-4xl text-center md:text-left">Additional Services</h3>
         <div className="pt-16 flex flex-col text-center gap-10 ">
           <Link to="/services/general-order-supplies">
-            <h2 className={`max-w-[100px] md:max-w-full font-bold text-3xl md:text-6xl ${location.pathname === "/services/general-order-supplies" ?  "text-white" : "text-[#808080]"}`}>General Order Supplies</h2>
+            <h2 className={`max-w-[200px] md:max-w-full font-bold text-3xl md:text-6xl ${location.pathname === "/services/general-order-supplies" ?  "text-white" : "text-[#808080]"}`}>General Order Supplies</h2>
           </Link>
           <Link to="/services/bulk-movement-solutions">
-            <h2 className={`max-w-[100px] md:max-w-full font-bold text-3xl md:text-6xl ${location.pathname === "/services/bulk-movement-solutions" ?  "text-white" : "text-[#808080]"}`}>Bulk Movement Solutions</h2>
+            <h2 className={`max-w-[200px] md:max-w-full font-bold text-3xl md:text-6xl ${location.pathname === "/services/bulk-movement-solutions" ?  "text-white" : "text-[#808080]"}`}>Bulk Movement Solutions</h2>
           </Link>
           <Link to="/services/metal-fabrication-services">
-            <h2 className={`max-w-[100px] md:max-w-full font-bold text-3xl md:text-6xl ${location.pathname === "/services/bulk-movement-solutions" ?  "text-white" : "text-[#808080]"}`}>Metal Fabrication Services</h2>
+            <h2 className={`max-w-[200px] md:max-w-full font-bold text-3xl md:text-6xl ${location.pathname === "/services/metal-fabrication-services" ?  "text-white" : "text-[#808080]"}`}>Metal Fabrication Services</h2>
           </Link>
         </div>
       </div>
