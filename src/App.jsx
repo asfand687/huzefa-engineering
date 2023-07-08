@@ -4,7 +4,10 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import {
   Homepage,
-  About
+  About,
+  GeneralOrderSupplies,
+  Services,
+  BulkMovementSolutions
 } from "./pages"
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
@@ -18,7 +21,9 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/services" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/services/general-order-supplies" element={<GeneralOrderSupplies />} />
+          <Route path="/services/bulk-movement-solutions" element={<BulkMovementSolutions/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
