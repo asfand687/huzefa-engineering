@@ -30,7 +30,6 @@ const BulkMovementSolutions = () => {
           description="We design and fabricate hoppers to facilitate the controlled flow and storage of bulk materials in various industries."
           headingColor='text-[#0065E7]'
         />
-        <AboutCarousel/>
         <ServicesInfoBlock
           subService
           number="02"
@@ -38,7 +37,6 @@ const BulkMovementSolutions = () => {
           description="Our conveyors are engineered to transport bulk materials safely and efficiently, optimizing production processes.."
           headingColor='text-[#0065E7]'
         />
-        <AboutCarousel/>
         <ServicesInfoBlock
           subService
           number="03"
@@ -46,6 +44,7 @@ const BulkMovementSolutions = () => {
           description="We provide reliable bucket elevators for vertical material handling, ensuring smooth and efficient movement of bulk materials."
           headingColor='text-[#0065E7]'
         />
+        <AboutCarousel/>
       </ServicesDescription>
       <ServicesNav/>
       <ContactUs/>
