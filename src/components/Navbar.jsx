@@ -10,7 +10,7 @@ const Navbar = () => {
           <img className="w-[150px]" src={Logo} alt="Huzefa Engineering"/>
         </Link>
         <ul className="hidden uppercase text-lg lg:flex gap-x-24">
-          <li>About Us</li>
+          <li><Link to="/about">About Us</Link></li>
           <li><Link to="/services">Services</Link></li>
           <li>Contact Us</li>
         </ul>
