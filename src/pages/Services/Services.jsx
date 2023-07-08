@@ -8,7 +8,7 @@ import {
   ServicesNav
 } from '../../sections'
 
-const About = () => {
+const Services = () => {
   return (
     <div>
       <ServicesHero
@@ -28,4 +28,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Services
