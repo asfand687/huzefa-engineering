@@ -2,26 +2,26 @@ import React from 'react'
 
 const AboutStats = () => {
   return (
-    <section className="w-full md:w-[clamp(270px,90vw,1400px)] md:ml-auto md:py-20 flex justify-center">
+    <section className="w-full md:w-[clamp(270px,90vw,1400px)] md:ml-auto py-20 flex justify-center">
       <article className="hidden md:block flex-1">
       </article>
-      <article className="flex-[2] flex md:gap-x-12 lg:gap-x-16">
-        <div className="flex flex-col justify-between">
+      <article className="flex-[2] flex flex-col gap-y-10 md:flex-row md:gap-x-12 lg:gap-x-16">
+        <div className="flex flex-col gap-y-20 md:gap-y-20 md:justify-between">
           <div className="flex flex-col items-center">
-            <h2 className="text-3xl md:text-5xl font-bold">40</h2>
+            <h2 className="text-5xl font-bold">40</h2>
             <h4 className="text-primary text-sm font-bold">Years of Experience</h4>
           </div>
           <div className="flex flex-col items-center">
-            <h2 className="text-3xl md:text-5xl font-bold">25</h2>
+            <h2 className="text-5xl font-bold">25</h2>
             <h4 className="text-primary text-sm font-bold">Employees</h4>
           </div>
           <div className="flex flex-col items-center">
-            <h2 className="text-3xl md:text-5xl font-bold">63</h2>
+            <h2 className="text-5xl font-bold">63</h2>
             <h4 className="text-primary text-sm font-bold">Projects</h4>
           </div>
         </div>
-        <div className="flex flex-col gap-y-4">
-          <h2 className="text-3xl md:text-5xl font-bold">About Us</h2>
+        <div className="flex flex-col items-center md:items-start gap-y-4">
+          <h2 className="text-5xl font-bold">About Us</h2>
           <div className="w-[clamp(270px,30vw,600px)] flex flex-col gap-y-4 font-bold">
             <p>At <span className="text-primary">Huzefa Engineering Services</span>, customer satisfaction is key. Our skilled Service team works on jobs of all sizes with equal importance, either at our workshop or the customer's site.</p>
             <p>
