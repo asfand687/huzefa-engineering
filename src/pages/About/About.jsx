@@ -1,12 +1,19 @@
 import React from 'react'
-import { AboutAdditionalServices, AboutDescription, AboutHero, ContactUs } from '../../sections'
+import { AboutAdditionalServices, AboutDescription, AboutInfoGraph, AboutStats, ContactUs, ServicesHero } from '../../sections'
+import AboutHeadingText from '../../components/AboutHeadingText'
 
 const About = () => {
   return (
     <div>
-      <AboutHero/>
-      <AboutDescription/>
-      <AboutAdditionalServices/>
+      <ServicesHero
+        titleTop="Lorem Ipsum"
+        titleBottom="Dolor Sit Amet,"
+      />
+      <AboutStats/>
+      <AboutHeadingText
+        text="Lorem ipsum dolor sit amet"
+      />
+      <AboutInfoGraph/>
       <ContactUs/>
     </div>
   )
