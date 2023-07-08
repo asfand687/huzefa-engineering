@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -14,7 +13,6 @@ import {
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <section className='overflow-clip'>
@@ -22,6 +20,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Homepage />} />
+          <Route path="/about" element={<About/>}/>
           <Route path="/services" element={<Services />} />
           <Route path="/services/general-order-supplies" element={<GeneralOrderSupplies />} />
           <Route path="/services/bulk-movement-solutions" element={<BulkMovementSolutions/>}/>
