@@ -11,8 +11,17 @@ import AboutHero from "./AboutPageSections/AboutHero";
 import AboutDescription from "./AboutPageSections/AboutDescription";
 import AboutCarousel from "./AboutPageSections/AboutCarousel";
 import AboutAdditionalServices from "./AboutPageSections/AboutAdditionalServices";
+import ServicesHero from "./Services/ServicesHero";
+import ServicesDescription from "./Services/ServicesDescription"
+import ServicesInfoBlock from "./Services/ServicesInfoBlock";
+import ServicesNav from "./Services/ServicesNav";
+
 
 export {
+  ServicesNav,
+  ServicesInfoBlock,
+  ServicesDescription,
+  ServicesHero,
   HomeHero,
   CEOMessage,
   ContactUs,
