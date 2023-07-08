@@ -19,7 +19,9 @@ const ServicesNav = () => {
           <Link to="/services/bulk-movement-solutions">
             <h2 className={`max-w-[100px] md:max-w-full font-bold text-3xl md:text-6xl ${location.pathname === "/services/bulk-movement-solutions" ?  "text-white" : "text-[#808080]"}`}>Bulk Movement Solutions</h2>
           </Link>
-          <h2 className="max-w-[100px] md:max-w-full text-[#808080] font-bold text-3xl md:text-6xl">Metal Fabrication Services</h2>
+          <Link to="/services/metal-fabrication-services">
+            <h2 className={`max-w-[100px] md:max-w-full font-bold text-3xl md:text-6xl ${location.pathname === "/services/bulk-movement-solutions" ?  "text-white" : "text-[#808080]"}`}>Metal Fabrication Services</h2>
+          </Link>
         </div>
       </div>
     </section>
