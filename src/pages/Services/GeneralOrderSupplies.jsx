@@ -30,7 +30,7 @@ const GeneralOrderSupplies = () => {
           headingColor='text-[#0065E7]'
           description="We specialize in heat transfer solutions, including the design, fabrication, and installation of various equipment. Our offerings include:"
         />
-        <AboutCarousel/>
+        
         <ServicesInfoBlock
           subService
           number="02"
@@ -38,7 +38,7 @@ const GeneralOrderSupplies = () => {
           headingColor='text-[#0065E7]'
           description="We design and manufacture efficient heat exchangers to facilitate heat transfer between two fluids, ensuring optimal performance and energy efficiency."
         />
-        <AboutCarousel/>
+        
         <ServicesInfoBlock
           subService
           number="03"
@@ -53,6 +53,7 @@ const GeneralOrderSupplies = () => {
           headingColor='text-[#0065E7]'
           description="We fabricate high-quality radiators for efficient heat dissipation in different applications, ensuring reliable and consistent temperature regulation."
         />
+        <AboutCarousel/>
       </ServicesDescription>
       <ServicesNav/>
       <ContactUs/>
