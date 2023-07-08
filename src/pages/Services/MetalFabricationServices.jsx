@@ -30,7 +30,7 @@ const MetalFabricationServices = () => {
           description="We specialize in the fabrication of durable and versatile gratings, including stainless steel and aluminum options, utilizing our advanced automatic grating welding machine."
           headingColor='text-[#0065E7]'
         />
-        <AboutCarousel/>
+        
         
         <ServicesInfoBlock
           subService
