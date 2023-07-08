@@ -18,18 +18,18 @@ const servicesData = [
 
 const AboutInfoGraph = () => {
   return (
-    <section className="bg-accent">
+    <section className="bg-accent pb-10">
       <AboutHeadingText
         text="Consectetur Adipiscing Elit"
         textColor='text-white'
       />
       <div className="flex justify-center py-10">
-        <img className="w-[clamp(250px,50vw,700px)]" src={About} alt="Infograph"/>
+        <img className="w-[clamp(300px,50vw,700px)]" src={About} alt="Infograph"/>
       </div>
-      <div className="flex flex-col md:flex-row justify-center md:gap-x-16 lg:gap-x-24">
+      <div className="flex flex-col md:flex-row gap-y-8 justify-center md:gap-x-16 lg:gap-x-24">
         {
           servicesData.map(service => (
-            <div key={service.id} className="max-w-[400px]">
+            <div key={service.id} className="w-[clamp(280px,20vw,600px)] mx-auto md:mx-0">
               <ServiceBlock
                 id={service.id}
                 title={service.title}
