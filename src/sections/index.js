@@ -15,9 +15,13 @@ import ServicesHero from "./Services/ServicesHero";
 import ServicesDescription from "./Services/ServicesDescription"
 import ServicesInfoBlock from "./Services/ServicesInfoBlock";
 import ServicesNav from "./Services/ServicesNav";
+import AboutStats from "./AboutPageSections/AboutStats";
+import AboutInfoGraph from "./AboutPageSections/AboutInfoGraph";
 
 
 export {
+  AboutInfoGraph,
+  AboutStats,
   ServicesNav,
   ServicesInfoBlock,
   ServicesDescription,
