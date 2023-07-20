@@ -4,6 +4,7 @@ import React from 'react'
 
 const Footer = () => {
   const handleShare = async () => {
+    console.log("it kinda works")
     try {
       if(navigator.share) {
         await navigator.share({
