@@ -6,7 +6,6 @@ const Footer = () => {
   const handleShare = async () => {
     try {
       if(navigator.share) {
-        setIsSharingSupported(true)
         await navigator.share({
           title: "MDN",
           text: "Learn web development on MDN!",
