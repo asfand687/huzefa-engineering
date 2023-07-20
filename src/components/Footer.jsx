@@ -3,6 +3,20 @@ import React from 'react'
 
 
 const Footer = () => {
+  const handleShare = async () => {
+    try {
+      if(navigator.share) {
+        setIsSharingSupported(true)
+        await navigator.share({
+          title: "MDN",
+          text: "Learn web development on MDN!",
+          url: "https://developer.mozilla.org"
+        })
+      }
+    } catch (error) {
+      console.error('Error sharing:', error)
+    }
+  }
   return (
     <footer>
       <div className="w-full bg-[#0065E7] text-white py-20 relative">
@@ -13,7 +27,10 @@ const Footer = () => {
               <li>
                 +1 (403) 401-2929
               </li>
-              <li>
+              <li 
+                onClick={handleShare}
+                className='cursor-pointer'
+              >
                 info@huzefaengineering.com
               </li>
               <li>
